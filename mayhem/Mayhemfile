@@ -1,0 +1,9 @@
+project: ddl
+target: ddl_parse
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /src/mayhem/ddl_parse.py
+    libfuzzer: true
+
